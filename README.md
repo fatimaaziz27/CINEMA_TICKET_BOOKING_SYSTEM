@@ -25,46 +25,6 @@ Users can book multiple seats, and the system automatically calculates the total
 - Check seat availability
 - Handle invalid menu choices
 
-## Technologies Used
-
-- Java
-- Java Collections Framework
-
-## OOP Concepts Used
-
-### 1. Encapsulation
-Private attributes are used in the `Movie` and `Booking` classes. Getters provide access to these attributes.
-
-### 2. Inheritance
-The `CinemaBooking` class extends the abstract `Booking` class using the `extends` keyword.
-
-### 3. Polymorphism
-Method overriding is used in the `CinemaBooking` class to provide implementations of `calculateTotalFare()` and `displayBooking()`.
-
-### 4. Abstraction
-The `Booking` class is declared as an abstract class and contains abstract methods.
-
-## Other Java Concepts Practiced
-
-- Classes and objects
-- Constructors
-- Getters
-- `private` access modifier
-- `abstract` classes and methods
-- `extends` keyword
-- `super()` keyword
-- `@Override` annotation
-- `ArrayList`
-- `HashMap`
-- `Scanner`
-- `switch` statements
-- `while` loops
-- Enhanced `for` loops
-- Conditional statements
-- Exception handling
-- `Integer.parseInt()`
-- `NumberFormatException`
-
 ## How It Works
 
 ### 1. View Movies
